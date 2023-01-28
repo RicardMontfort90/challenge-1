@@ -97,5 +97,9 @@ article.card>button {
 /******* Search input *******/
 
 form>input.search-input {
-  
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid var(--primary-blue);
 }
+
