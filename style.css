@@ -57,8 +57,37 @@ div#header {
 
 /***** Navbar styles ****/
 
+nav ul li a img {
+  width: 50px;
+}
 
+nav ul {
+  list-style-type: none;
+  display:  flex;
+  justify-content:space-evenly;
+}
+
+nav {
+  width: 100vw;
+  padding: 20px;
+  background-color: var(--basic-white);
+  position: fixed;
+  bottom: 0;
+}
 
 /***** Card styles ****/
+
+article.card {
+  background-color: var(--primary-orange);
+  width: 100%;
+  padding: 20px 15px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+article.card>button {
+  background-color: var(--primary-blue);
+  color: var();
+}
 
 /******* Search input *******/
