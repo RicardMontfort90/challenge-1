@@ -103,3 +103,6 @@ form>input.search-input {
   border: 2px solid var(--primary-blue);
 }
 
+form>input.search-input::placeholder {
+  color: var(--primary-blue)
+}
