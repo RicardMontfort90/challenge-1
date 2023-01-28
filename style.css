@@ -87,7 +87,8 @@ article.card {
 
 article.card>button {
   background-color: var(--primary-blue);
-  color: var();
+  color: var(--basic-white);
+  border:none;
 }
 
 /******* Search input *******/
