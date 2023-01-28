@@ -89,6 +89,13 @@ article.card>button {
   background-color: var(--primary-blue);
   color: var(--basic-white);
   border:none;
+  padding: 10 20px;
+  margin-top: 10px;
+  border-radius: 10px;
 }
 
 /******* Search input *******/
+
+form>input.search-input {
+  
+}
